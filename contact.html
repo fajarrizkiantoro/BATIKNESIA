@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <title></title>
+    <style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+    .r{
+    width: 100%;
+    height: 142px;
+    }
+    .t{
+    width: 100%;
+    background-color: #40241a;
+    height: 300px;
+    }
+    @media only screen and (max-width: 600px)  {
+    .t{
+    height: 535px;
+    }
+    }
+    @media only screen and (max-width: 900px)  {
+    .t{
+    height: 510px;
+    }
+    }
+    @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+    .s{
+    width: 100%;
+    height: 400px;
+    margin-left: 20px
+    }
+    @media only screen and (max-width: 600px)  {
+    .s{
+    height: 535px;
+    }
+    }
+    @media only screen and (max-width: 900px)  {
+    .s{
+    height: 600px;
+    }
+    }
+    input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+    input[type=checkbox] {
+    margin-top: 16px;
+    }
+    input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    }
+    input[type=submit]:hover {
+    opacity: 0.8;
+    }
+    .ii a{
+    color: #fff;
+    font-size: 30px;
+    }
+     #map {
+        height: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home1.html" style="color: white">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                KAIN
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Pulau Kalimantan</a>
+                <a class="dropdown-item" href="kain_papua.html">Pulau Papua</a>
+                <a class="dropdown-item" href="#">Pulau Sumatra</a>
+                <a class="dropdown-item" href="kain_jawa.html">Pulau Jawa</a>
+                <a class="dropdown-item" href="#">Pulau Sulawesi</a>
+                <a class="dropdown-item" href="#">Kepulauan Maluku</a>
+                <a class="dropdown-item" href="#">Kepulauan Riau</a>
+                <a class="dropdown-item" href="#">Pulau Halmahera</a>
+                <a class="dropdown-item" href="#">Pulau Sunda</a>
+                <a class="dropdown-item" href="#">Pulau Madura</a>
+                <a class="dropdown-item" href="kain_bali.html">Pulau Bali</a>
+                <a class="dropdown-item" href="#">Pulau Biak</a>
+              </div>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                  BAJU
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="bajupria.html">Pria</a>
+                  <a class="dropdown-item" href="bajuwanita.html">Wanita</a>
+                  <a class="dropdown-item" href="pasangan.html">Pasangan</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                  CELANA
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="celanapria.html">Celana Pria</a>
+                  <a class="dropdown-item" href="celanawanita.html">Celana Wanita</a>
+                  <a class="dropdown-item" href="rokwanita.html">Rok Wanita</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="hijab.html" style="color: white">HIJAB <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="how to order.html" style="color: white">HOW TO ORDER <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="testimoni.html" style="color: white">TESTIMONI <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html" style="color: white">CONTACT <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            <!--<form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>-->
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <a href="hijab.html" class="btn btn-secondary" style="color: white"><i class="fa fa-search"></i></a>
+            </form>
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                <i class="fas fa-user"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="infoakun.html">Informasi Akun</a>
+                <a class="dropdown-item" href="rpembelian.html">Riwayat Pembelian</a>
+                <a class="dropdown-item" href="akun.html">Keluar</a>
+              </div>
+            </div>
+            <a href="keranjang.html" class="nav-link" style="color: white"><i class="fas fa-shopping-cart"></i></a>
+          </div>
+        </div>
+      </nav>
+      <br><br>
+      <div class="text-center mt-4">
+        <img src="assets/img/logo.png" class="img-fluid" alt="Responsive image">
+      </div>
+      <hr align="center" width="80%">
+      <div class="container">
+        <div class="row" id="y">
+        </div>
+      </div>
+      <div class="container">
+        <div class="s">
+          <div class="row">
+            <div class="col-md-6">
+              <div id="map"></div>
+              <script>
+              var map;
+              function initMap() {
+              map = new google.maps.Map(document.getElementById('map'), {
+              center: {lat: -7.755208, lng: 110.408641},
+              zoom: 15
+              });
+              }
+              </script>
+              <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIBDXdnWmrpRNRrUgmGJ88F76y4ZLan3I&callback=initMap"
+              async defer></script>
+              <h6 class="mt-3">BATIKNESIA</h6>
+              <h7 class="mt-3">Jalan Anyelir 1 No.241 Perumas Condong Catur, Condongcatur Kec.Depok, Kab.Sleman, Daerah Istimewa Yogyakarta 55821</h7>
+            </div>
+            <div class="col-md-6 mb-3">
+              <h4>KIRIMKAN PESAN ANDA</h4><br>
+              <form action="contact.html" >
+                <div class="form-row">
+                  <div class="col mb-4 mr-2">
+                    <input type="text" class="form-control" id="validationServer01" placeholder="Nama" value="" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col ml-2">
+                    <input type="text" class="form-control" id="validationServer02" placeholder="Subjek" value="" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col mb-3 mr-2">
+                    <input type="email" class="form-control" id="validationServer01" placeholder="Email" value="" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col ml-2">
+                    <input type="" class="form-control" id="validationServer02" placeholder="Nomor Hp" value="" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group mt-4">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Pesan"></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">KIRIM PESAN</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="mt-5">
+        <div class="r bg-danger">
+          <form action="#">
+            <div class="container" style="background-color:transparent;">
+              <input type="text" placeholder="Email address" name="mail" required>
+            </div>
+            <div class="container">
+              <input type="submit" value="Subscribe">
+            </div>
+          </form>
+        </div>
+        <div class="t">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <br>
+                <h5 style="color: #fff">Informasi</h5>
+                <hr style="border: 1px solid #fff;">
+                <h6 style="color: #fff">Tentang kami</h6>
+                
+              </div>
+              <div class="col-md-4">
+                <br>
+                <h5 style="color: #fff">Informasi Toko</h5>
+                <hr style="border: 1px solid #fff;">
+                <h6 style="color: #fff">Toko Resmi Batiknesia</h6>
+                <h6 style="color: #fff; text-align: justify;"><i class=" fas fa-map-marker-alt"></i> Jalan Anyelir 1 No.241 Perumas Condong Catur, Condongcatur Kec.Depok, Kab.Sleman, Daerah Istimewa Yogyakarta 55821</h6><br>
+                <h6 style="color: #fff; text-align: justify;"><i class="fas fa-phone"></i>&nbsp;&nbsp;&nbsp;  0895359534470</h6>
+                <br>
+                <h6 style="color: #fff; text-align: justify;"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Customer.care@batiknesia.com</h6>
+                
+                
+              </div>
+              <div class="col-md-4 ii">
+                <br>
+                <h5 style="color: #fff">Ikuti Kami Di</h5>
+                <hr style="border: 1px solid #fff;">
+                <a href="#" class="m-2"><i class="fab fa-facebook-square"></i><a>
+                  <a href="#" class="m-2"><i class="fab fa-instagram"></i><a>
+                    <a href="#" class="m-2"><i class="fab fa-twitter"></i><a>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+          </body>
+        </html>

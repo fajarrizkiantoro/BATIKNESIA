@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script type="text/javascript" src="assets\angular.min.js"></script>
+    <title></title>
+    <style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+    .r{
+    width: 100%;
+    height: 142px;
+    }
+    .t{
+    width: 100%;
+    background-color: #40241a;
+    height: 300px;
+    }
+    @media only screen and (max-width: 600px)  {
+    .t{
+    height: 535px;
+    }
+    }
+    @media only screen and (max-width: 900px)  {
+    .t{
+    height: 510px;
+    }
+    }
+    @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+    .s{
+    width: 100%;
+    height: 500px;
+    margin-left: 20px
+    }
+    @media only screen and (max-width: 600px)  {
+    .s{
+    height: 535px;
+    }
+    }
+    @media only screen and (max-width: 900px)  {
+    .s{
+    height: 800px;
+    }
+    }
+    input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+    input[type=checkbox] {
+    margin-top: 16px;
+    }
+    input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    }
+    input[type=submit]:hover {
+    opacity: 0.8;
+    }
+    .ii a{
+    color: #fff;
+    font-size: 30px;
+    }
+  .divukuran {
+    display: flex;
+    flex-direction: row;
+  }
+  .hitung {
+      display: flex;
+      flex-direction: row;
+    }
+    .rata {
+      display: flex;
+      flex-direction: row;
+    }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home1.html" style="color: white">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                KAIN
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Pulau Kalimantan</a>
+                <a class="dropdown-item" href="kain_papua.html">Pulau Papua</a>
+                <a class="dropdown-item" href="#">Pulau Sumatra</a>
+                <a class="dropdown-item" href="kain_jawa.html">Pulau Jawa</a>
+                <a class="dropdown-item" href="#">Pulau Sulawesi</a>
+                <a class="dropdown-item" href="#">Kepulauan Maluku</a>
+                <a class="dropdown-item" href="#">Kepulauan Riau</a>
+                <a class="dropdown-item" href="#">Pulau Halmahera</a>
+                <a class="dropdown-item" href="#">Pulau Sunda</a>
+                <a class="dropdown-item" href="#">Pulau Madura</a>
+                <a class="dropdown-item" href="kain_bali.html">Pulau Bali</a>
+                <a class="dropdown-item" href="#">Pulau Biak</a>
+              </div>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                  BAJU
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="bajupria.html">Pria</a>
+                  <a class="dropdown-item" href="bajuwanita.html">Wanita</a>
+                  <a class="dropdown-item" href="pasangan.html">Pasangan</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                  CELANA
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="celanapria.html">Celana Pria</a>
+                  <a class="dropdown-item" href="celanawanita.html">Celana Wanita</a>
+                  <a class="dropdown-item" href="rokwanita.html">Rok Wanita</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="hijab.html" style="color: white">HIJAB <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="how to order.html" style="color: white">HOW TO ORDER <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="testimoni.html" style="color: white">TESTIMONI <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html" style="color: white">CONTACT <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            <!--<form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>-->
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <a href="hijab.html" class="btn btn-secondary" style="color: white"><i class="fa fa-search"></i></a>
+            </form>
+            <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                <i class="fas fa-user"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="infoakun.html">Informasi Akun</a>
+                <a class="dropdown-item" href="rpembelian.html">Riwayat Pembelian</a>
+                <a class="dropdown-item" href="akun.html">Keluar</a>
+              </div>
+            </div>
+            <a href="keranjang.html" class="nav-link" style="color: white"><i class="fas fa-shopping-cart"></i></a>
+          </div>
+        </div>
+      </nav>
+      <br><br>
+      <div class="text-center mt-4">
+        <img src="assets/img/logo.png" class="img-fluid" alt="Responsive image">
+      </div>
+      <hr align="center" width="80%">
+      <div class="container">
+        <div class="row" id="y">
+        </div>
+      </div>
+      <div class="container">
+        <div class="s">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="assets/img\11.jpg" style="width: 400px; height: 450px;">
+            </div>
+            <div class="col-md-6 mb-3">
+              <h5>Hijab Batik</h5>
+            <pre>Harga        : Rp 75,000.-</pre>
+            <div class="warna">
+                                <pre>Warna        : <select name="Warna">
+                                  <option value="Black">Black</option>
+                                  <option value="Navy Blue">Navy Blue</option>
+                <option value="Maroon">Maroon</option></pre>
+              </select>
+            </div>
+            <div class="divukuran">
+            <pre>Ukuran       : <button class="btn-group btn-group-toggle">S</button><button class="btn-group btn-group-toggle">M</button><button class="btn-group btn-group-toggle">L</button><button class="btn-group btn-group-toggle">XL</button></pre>
+          </div>
+          <div class="rata">
+            Jumlah&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;<div ng-app="myApp" ng-controller="myController"><div class="hitung"><button ng-click="count=count-1">-</button><a>&nbsp;&nbsp;&nbsp;{{count}}&nbsp;&nbsp;&nbsp;</a><button ng-click="count=count+1">+</button></div></div><script>var app = angular.module('myApp',[]);app.controller('myController', function ($scope){$scope.count = 0;});</script>
+            &nbsp;&nbsp;<a href="keranjang.html" class="btn btn-danger btn-sm" ><i class="fas fa-shopping-cart"></i>&nbsp;Masukkan Ke Keranjang</a>
+          </div>
+        <pre class="mt-3">Pembayaran   : </pre>
+        <input type="radio" name="bank"><img src="assets/img\bri.png">
+        <input type="radio" name="bank"><img src="assets/img\bni.png">
+        <input type="radio" name="bank"><img src="assets/img\mandiri.png">
+        <input type="radio" name="bank"><img src="assets/img\visa.png">
+        <input type="radio" name="bank"><img src="assets/img\mastercard.png">
+        <a href="proses_pembayaran.html" class="btn btn-danger btn-sm mt-3" >Lanjut Ke Proses Pembayaran</a>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="mt-5">
+  <div class="r bg-danger">
+    <form action="#">
+      <div class="container" style="background-color:transparent;">
+        <input type="text" placeholder="Email address" name="mail" required>
+      </div>
+      <div class="container">
+        <input type="submit" value="Subscribe">
+      </div>
+    </form>
+  </div>
+  <div class="t">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <br>
+          <h5 style="color: #fff">Informasi</h5>
+          <hr style="border: 1px solid #fff;">
+          <h6 style="color: #fff">Tentang kami</h6>
+          
+        </div>
+        <div class="col-md-4">
+          <br>
+          <h5 style="color: #fff">Informasi Toko</h5>
+          <hr style="border: 1px solid #fff;">
+          <h6 style="color: #fff">Toko Resmi Batiknesia</h6>
+          <h6 style="color: #fff; text-align: justify;"><i class=" fas fa-map-marker-alt"></i> Jalan Anyelir 1 No.241 Perumas Condong Catur, Condongcatur Kec.Depok, Kab.Sleman, Daerah Istimewa Yogyakarta 55821</h6><br>
+          <h6 style="color: #fff; text-align: justify;"><i class="fas fa-phone"></i>&nbsp;&nbsp;&nbsp;  0895359534470</h6>
+          <br>
+          <h6 style="color: #fff; text-align: justify;"><i class="fas fa-envelope"></i>&nbsp;&nbsp;Customer.care@batiknesia.com</h6>
+          
+          
+        </div>
+        <div class="col-md-4 ii">
+          <br>
+          <h5 style="color: #fff">Ikuti Kami Di</h5>
+          <hr style="border: 1px solid #fff;">
+          <a href="#" class="m-2"><i class="fab fa-facebook-square"></i><a>
+            <a href="#" class="m-2"><i class="fab fa-instagram"></i><a>
+              <a href="#" class="m-2"><i class="fab fa-twitter"></i><a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+  </html>
